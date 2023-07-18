@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/legalback"
+    >
+
+    <TextView
+        android:id="@+id/especialidad3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experiencia: "
+        android:textColor="#D5B07B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <Button
+        android:id="@+id/Contacto"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:text="Contacto"
+        android:textColorHighlight="#3F51B5"
+        android:textColorLink="#3F51B5"
+        app:backgroundTint="@color/azul_marino"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+
+    <TextView
+        android:id="@+id/perfilprofesional"
+        android:layout_width="486dp"
+        android:layout_height="97dp"
+        android:text="Abogada, Licenciada en Ciencias Jurídicas y Sociales de la de la Universidad Católica del Norte. Postulante al grado de Magister en Derecho. Con experiencia en litigación y docencia."
+        android:textAlignment="center"
+        android:textColor="#D5B07B"
+        android:textColorHint="#ECE4E4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/especialidad2"
+        android:layout_width="384dp"
+        android:layout_height="44dp"
+        android:text="Derecho de Familia y Violencia Intrafamiliar"
+        android:textColor="#D5B07B"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <TextView
+        android:id="@+id/especialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad: "
+        android:textColor="#D5B07B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="39dp"
+        android:text="5 años de experiencia "
+        android:textColor="#D5B07B"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/especialidad2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="219dp"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/galita"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="486dp"
+        android:layout_height="39dp"
+        android:text="Luisa Alison Ramos Muñoz"
+        android:textColor="#D5B07B"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

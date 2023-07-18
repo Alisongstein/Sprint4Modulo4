@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity2"
+    android:background="@drawable/legalback">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir a Web"
+            tools:layout_editor_absoluteX="224dp"
+            tools:layout_editor_absoluteY="290dp"
+            app:backgroundTint="@color/azul_marino"/>/>
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="286dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="420dp"
+            android:hint="Escribe tu mensaje aquí"
+            android:textColor="#D5B07B"
+            android:textColorHint="#E6E6E6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/botonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextMessage"
+            app:layout_constraintVertical_bias="0.29"
+            app:backgroundTint="@color/azul_marino"/>
+
+        ]]>
+
+        ]]>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="262dp"
+            android:layout_height="40dp"
+            android:text="+56 9 6899 1071"
+            android:textColor="#D5B07B"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.825"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.298" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/linkedin"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/whatsapp"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/www"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <Button
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir a Linkedin"
+            tools:layout_editor_absoluteX="224dp"
+            tools:layout_editor_absoluteY="53dp"
+            app:backgroundTint="@color/azul_marino"/>/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
